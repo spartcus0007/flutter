@@ -1,17 +1,6 @@
 import 'package:flutter/material.dart';
 
-void main(){
-  runApp(ButtonApp());
-}
 
-class ButtonApp extends StatelessWidget{
-  @override
-  Widget build(BuildContext context){
-    return MaterialApp(
-      home: ButtonExample(),
-    );
-  }
-}
 
 class ButtonExample extends StatelessWidget{
   @override
